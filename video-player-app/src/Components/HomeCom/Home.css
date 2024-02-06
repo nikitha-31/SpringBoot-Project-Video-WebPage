@@ -1,0 +1,36 @@
+/* Home.css */
+
+/* Home.css */
+
+.home-container {
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 70vh; /* Adjust the height based on your preference */
+  background-color: #f0f0f0; /* Set the background color as needed */
+}
+
+h2 {
+  margin-bottom: 20px;
+}
+
+.option-box {
+  font-weight: bold;
+  display: inline-block;
+  padding: 15px;
+  margin: 10px;
+  background-color:black; /* Set the background color as needed */
+  color: #fff; /* Set the text color as needed */
+  text-align: center;
+  text-decoration: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.option-box:hover {
+  background-color: white;
+  color: black; /* Set the hover background color as needed */
+}

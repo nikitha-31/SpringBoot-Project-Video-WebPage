@@ -1,0 +1,44 @@
+/* DisplayVideo.css */
+
+/* Container for each video item */
+.video-item {
+    
+    margin-top: 30px;
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    
+  }
+  
+  /* Styling for the video element */
+  .video-item video {
+    width: 750px;
+    height: 400px;
+    margin-left: 350px;
+  }
+  
+  /* Styling for the title, tags, and description */
+  .video-details {
+    margin-left: 350px;
+    font-size: larger;
+    margin-top: 10px;
+  }
+  
+  /* Styling for the delete button */
+  .delete-button {
+    margin-left: 350px;
+    background-color: black;
+    color: #fff;
+    padding: 8px 12px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  .delete-button:hover {
+    background-color: black;
+    color: white;
+  }
+  
+  

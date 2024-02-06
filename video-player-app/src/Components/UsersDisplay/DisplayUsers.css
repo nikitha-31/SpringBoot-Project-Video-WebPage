@@ -1,0 +1,27 @@
+/* DisplayUsers.css */
+
+/* Container for each video item */
+.video-item-user {
+    margin-top: 30px;
+    display: flex;
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ddd;
+  }
+  
+  /* Styling for the video element */
+  .video-item-user video {
+    width: 750px;
+    height: 400px;
+    margin-left: 30px;
+    /* Adjust margin as needed */
+  }
+  
+  /* Styling for the title, tags, and description */
+  .video-details-user {
+    margin-top: 100px;
+    margin-left:100px ;
+    flex-grow: 1;
+  }
+  
+  
